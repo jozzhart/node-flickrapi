@@ -25,7 +25,7 @@ module.exports = (function() {
         filename = mdir + "/" + method_name + ".json";
 
     // advance the progress bar
-    progressBar.tick();
+    //progressBar.tick();
 
     var handleResult = function(result) {
       var method = result.method,
